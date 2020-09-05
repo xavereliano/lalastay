@@ -4,6 +4,7 @@ html, body {
 	font-family: "Cabin", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #d71d4c;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -58,14 +59,14 @@ ul, ol {
 }
 .section-title span {
 	font-size: 14px;
-	color: #d71d4c;
+	color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 .section-title h2 {
 	font-size: 44px;
-	color: #19191a;
+	color: #ffffff;
 	line-height: 58px;
 	margin-top: 10px;
 }
@@ -328,7 +329,7 @@ ul, ol {
 	list-style: none;
 	display: inline-block;
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	font-weight: 500;
 	padding: 14px 0 12px;
 	margin-right: 64px;
@@ -364,7 +365,7 @@ ul, ol {
 .top-nav .tn-right .top-social a {
 	display: inline-block;
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	margin-left: 15px;
 }
 .top-nav .tn-right .bk-btn {
@@ -469,7 +470,7 @@ ul, ol {
 }
 .menu-item .nav-menu .mainmenu li a {
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	margin-right: 42px;
 	font-weight: 500;
 	display: inline-block;
@@ -534,7 +535,7 @@ ul, ol {
 }
 .menu-item .nav-menu .nav-right i {
 	font-size: 16px;
-	color: #19191a;
+	color: #ffffff;
 	cursor: pointer;
 }
 .canvas-open {
@@ -749,7 +750,7 @@ ul, ol {
 	padding: 0 35px;
 }
 .about-text p {
-	color: #595960;
+	color: #ffffff;
 	font-weight: 500;
 }
 .about-text p.f-para {
@@ -796,13 +797,13 @@ ul, ol {
 }
 .service-item i {
 	display: inline-block;
-	color: #d71d4c;
+	color: yellow;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 .service-item h4 {
-	color: #19191a;
+	color: #ffffff;
 	font-size: 22px;
 	margin-bottom: 15px;
 	margin-top: 10px;
@@ -811,7 +812,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .service-item p {
-	color: #707079;
+	color: #ffffff;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
