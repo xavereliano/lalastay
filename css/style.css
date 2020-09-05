@@ -38,9 +38,9 @@ p {
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
-img {
-	max-width: 100%;
-}
+/*img {
+	max-width: 20%;
+}*/
 input:focus, select:focus, button:focus, textarea:focus {
 	outline: none;
 }
@@ -440,7 +440,10 @@ ul, ol {
 	z-index: 9;
 }
 .menu-item .logo {
-	padding: 25px 0;
+	padding:  0;
+}
+.menu-item .logo img{
+	width: 47%;
 }
 .menu-item .logo a {
 	display: inline-block;
@@ -470,7 +473,7 @@ ul, ol {
 }
 .menu-item .nav-menu .mainmenu li a {
 	font-size: 16px;
-	color: #ffffff;
+	color: yellow;
 	margin-right: 42px;
 	font-weight: 500;
 	display: inline-block;
@@ -486,7 +489,7 @@ ul, ol {
 	top: 52px;
 	width: 100%;
 	height: 2px;
-	background: yellow;
+	background: #ffffff;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -567,6 +570,10 @@ ul, ol {
     align-items: center;
 }
 
+.hero-section .container .hader input{
+	position: relative;
+	margin-left: 10px;
+}
 .hero-section .container .hader h1{
 	color: #d71d4c;
 	margin-bottom: 70px;
@@ -581,10 +588,13 @@ ul, ol {
 	outline:none;
 }
 .hotels{
-	width: 400px;
+	width: 300px;
 }
 .Location{
 	width: 200px
+}
+.date-input{
+	width: 150px;
 }
 .search-btn{
 	height: 50px;
@@ -760,7 +770,7 @@ ul, ol {
 	margin-bottom: 35px;
 }
 .about-text .about-btn {
-	color: #19191a;
+	color: yellow;
 }
 .about-pic img {
 	min-width: 100%;
@@ -960,7 +970,7 @@ ul, ol {
 -----------------------*/
 
 .footer-section {
-	background: #222736;
+	background: #d71d4c;
 }
 .footer-section .footer-text {
 	padding: 80px 0 30px;
@@ -975,7 +985,7 @@ ul, ol {
 	display: inline-block;
 }
 .footer-section .footer-text .ft-about p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-about .fa-social a {
@@ -986,7 +996,7 @@ ul, ol {
 	line-height: 40px;
 	text-align: center;
 	color: #ffffff;
-	border: 1px solid #d71d4c;
+	border: 1px solid yellow;
 	border-radius: 50%;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -994,8 +1004,8 @@ ul, ol {
 	margin-right: 7px;
 }
 .footer-section .footer-text .ft-about .fa-social a:hover {
-	background: #d71d4c;
-	border-color: #d71d4c;
+	background: yellow;
+	border-color: yellow;
 }
 .footer-section .footer-text .ft-contact {
 	margin-bottom: 30px;
@@ -1011,7 +1021,7 @@ ul, ol {
 }
 .footer-section .footer-text .ft-contact ul li {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 	line-height: 32px;
 	list-style: none;
 }
@@ -1025,7 +1035,7 @@ ul, ol {
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter .fn-form {
@@ -1046,7 +1056,7 @@ ul, ol {
 	right: 0;
 	top: 0;
 	font-size: 16px;
-	background: #d71d4c;
+	background: yellow;
 	color: #ffffff;
 	padding: 0 16px;
 	height: 50px;
@@ -1054,7 +1064,7 @@ ul, ol {
 	border-radius: 0 2px 2px 0;
 }
 .footer-section .copyright-option {
-	background: rgba(16, 20, 31, 0.2);
+	background: #d71d4c;
 	padding: 20px 0;
 }
 .footer-section .copyright-option ul li {
@@ -1067,7 +1077,7 @@ ul, ol {
 }
 .footer-section .copyright-option ul li a {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 }
 .footer-section .copyright-option .co-text {
 	font-size: 16px;
@@ -2080,6 +2090,9 @@ ul, ol {
 	}
 	.hp-room-items .hp-room-item:hover .hr-text {
 		bottom: 80px;
+	}		
+	.menu-item .logo img{
+		width: 47%;
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -2112,8 +2125,8 @@ ul, ol {
 		font-size: 22px;
 		width: 30px;
 		height: 30px;
-		color: #19191a;
-		border: 1px solid #19191a;
+		color: yellow;
+		border: 1px solid yellow;
 		border-radius: 2px;
 		line-height: 33px;
 		text-align: center;
@@ -2175,7 +2188,7 @@ ul, ol {
 	}
 	.offcanvas-menu-wrapper .header-configure-area .language-option img {
 		height: 26px;
-		width: 26px;
+		width: 69px;
 		border-radius: 50%;
 		margin-right: 10px;
 	}
@@ -2223,7 +2236,7 @@ ul, ol {
 		font-size: 13px;
 		font-weight: 700;
 		padding: 16px 28px 15px;
-		background: #dfa974;
+		background: yellow;
 		color: #ffffff;
 		text-transform: uppercase;
 		letter-spacing: 2px;
@@ -2255,7 +2268,7 @@ ul, ol {
 		padding: 10px;
 		font-weight: 600;
 		font-size: 14px;
-		color: #19191a;
+		color: yellow;
 		border-bottom: 1px solid #e5e5e5;
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
@@ -2293,7 +2306,7 @@ ul, ol {
 	.offcanvas-menu-wrapper .top-social a {
 		display: inline-block;
 		font-size: 16px;
-		color: #19191a;
+		color: yellow;
 		margin-right: 20px;
 	}
 	.offcanvas-menu-wrapper .top-social a:last-child {
@@ -2307,7 +2320,7 @@ ul, ol {
 		line-height: 28px;
 	}
 	.offcanvas-menu-wrapper .top-widget li i {
-		color: #dfa974;
+		color: yellow;
 		margin-right: 4px;
 	}
 	.offcanvas-menu-wrapper.show-offcanvas-menu-wrapper {
@@ -2338,6 +2351,31 @@ ul, ol {
 	.hero-text {
 		margin-bottom: 40px;
 	}
+
+	.hotels{
+	width: 45%;
+	}
+	.Location{
+		width: 45%;
+	}
+	.date-input{
+		width: 30%;
+	    margin-top: 10px;
+	    left: 20%;
+	    transform: translate(-20%, 0);
+	}
+	.search-btn{
+		width: 100%;
+    	margin-top: 10px;
+	}
+	.form-box{
+		background: rgba(0,0,0,0.5);
+		padding: 10px;
+		border-radius: 50px;
+	}
+	.menu-item .logo img{
+		width: 17%;
+	}
 }
 /* Tablet Device: 768px */
 
@@ -2354,6 +2392,31 @@ ul, ol {
 	.hp-room-item {
 		margin-bottom: 15px;
 	}
+
+	.hotels{
+	width: 45%;
+	}
+	.Location{
+		width: 45%;
+	}
+	.date-input{
+		width: 30%;
+	    margin-top: 10px;
+	    left: 20%;
+	    transform: translate(-20%, 0);
+	}
+	.search-btn{
+		width: 100%;
+    	margin-top: 10px;
+	}
+	.form-box{
+		padding: 20px;
+	}
+
+	.menu-item .logo img{
+		width: 15%;
+	}
+
 }
 /* Large Mobile: 480px */
 
@@ -2396,6 +2459,38 @@ ul, ol {
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
+
+	.menu-item .logo img{
+		width: 47%;
+	}
+	.hotels{
+	width: 300px;
+	}
+	.Location{
+		width: 200px
+	}
+	.date-input{
+		width: 150px;
+	}
+	.search-btn{
+		height: 50px;
+		width: 150px;
+		background: yellow;
+		color: #000;
+		border-radius: 25px;
+		transition: .8s ease-in-out;
+	}
+	.search-btn:hover{
+		background: #d71d4c;
+		cursor: pointer;
+	}
+	.form-box{
+		background: rgba(0,0,0,0.5);
+		padding: 20px;
+		border-radius: 35px;
+	}
+
+
 	.footer-section .copyright-option ul li {
 		margin-bottom: 5px;
 	}
