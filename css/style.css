@@ -572,7 +572,6 @@ ul, ol {
 
 .hero-section .container .hader input{
 	position: relative;
-	margin-left: 10px;
 }
 .hero-section .container .hader h1{
 	color: #d71d4c;
@@ -584,8 +583,9 @@ ul, ol {
 .search-field{
 	height: 50px;
 	border: none;
-	border-radius: 25px;
+	border: 2px solid #d71d4c;
 	outline:none;
+    padding-left: 10px;
 }
 .hotels{
 	width: 300px;
@@ -595,13 +595,13 @@ ul, ol {
 }
 .date-input{
 	width: 150px;
+    padding-left: 10px;
 }
 .search-btn{
 	height: 50px;
 	width: 150px;
 	background: yellow;
 	color: #000;
-	border-radius: 25px;
 	transition: .8s ease-in-out;
 }
 .search-btn:hover{
@@ -611,7 +611,6 @@ ul, ol {
 .form-box{
 	background: rgba(0,0,0,0.5);
 	padding: 20px;
-	border-radius: 35px;
 }
 .hero-text {
 	padding-top: 145px;
@@ -2140,7 +2139,7 @@ ul, ol {
 		top: 0;
 		width: 300px;
 		z-index: 999;
-		background: #ffffff;
+		background: #d71d4c;
 		text-align: center;
 		overflow-y: auto;
 		height: 100%;
@@ -2155,7 +2154,8 @@ ul, ol {
 	.offcanvas-menu-wrapper .canvas-close {
 		height: 30px;
 		width: 30px;
-		border: 1px solid #19191a;
+		color: #ffffff;
+		border: 1px solid #ffffff;
 		border-radius: 50%;
 		text-align: center;
 		line-height: 30px;
@@ -2166,7 +2166,7 @@ ul, ol {
 		padding-right: 1px;
 	}
 	.offcanvas-menu-wrapper .search-icon {
-		color: #19191a;
+		color: #ffffff;
 		text-align: center;
 		cursor: pointer;
 		margin-bottom: 10px;
@@ -2187,8 +2187,8 @@ ul, ol {
 		visibility: visible;
 	}
 	.offcanvas-menu-wrapper .header-configure-area .language-option img {
-		height: 26px;
-		width: 69px;
+		height: 46px;
+		width: 46px;
 		border-radius: 50%;
 		margin-right: 10px;
 	}
@@ -2240,6 +2240,7 @@ ul, ol {
 		color: #ffffff;
 		text-transform: uppercase;
 		letter-spacing: 2px;
+		width: 100%;
 	}
 	.offcanvas-menu-wrapper .mainmenu {
 		display: none;
@@ -2268,7 +2269,7 @@ ul, ol {
 		padding: 10px;
 		font-weight: 600;
 		font-size: 14px;
-		color: yellow;
+		color: #ffffff;
 		border-bottom: 1px solid #e5e5e5;
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
@@ -2277,7 +2278,7 @@ ul, ol {
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #dfa974;
+		color: yellow;
 	}
 	.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row a {
 		border-bottom: 0;
@@ -2315,7 +2316,7 @@ ul, ol {
 	.offcanvas-menu-wrapper .top-widget li {
 		list-style: none;
 		font-size: 16px;
-		color: #19191a;
+		color: #ffffff;
 		font-weight: 500;
 		line-height: 28px;
 	}
@@ -2353,25 +2354,20 @@ ul, ol {
 	}
 
 	.hotels{
-	width: 45%;
+	width: 49%;
 	}
 	.Location{
-		width: 45%;
+		width: 49%;
 	}
 	.date-input{
-		width: 30%;
-	    margin-top: 10px;
-	    left: 20%;
-	    transform: translate(-20%, 0);
+		width: 49%;
 	}
 	.search-btn{
 		width: 100%;
     	margin-top: 10px;
 	}
 	.form-box{
-		background: rgba(0,0,0,0.5);
 		padding: 10px;
-		border-radius: 50px;
 	}
 	.menu-item .logo img{
 		width: 17%;
@@ -2394,16 +2390,13 @@ ul, ol {
 	}
 
 	.hotels{
-	width: 45%;
+	width: 49%;
 	}
 	.Location{
-		width: 45%;
+		width: 49%;
 	}
 	.date-input{
-		width: 30%;
-	    margin-top: 10px;
-	    left: 20%;
-	    transform: translate(-20%, 0);
+		width: 49%;
 	}
 	.search-btn{
 		width: 100%;
@@ -2464,20 +2457,18 @@ ul, ol {
 		width: 47%;
 	}
 	.hotels{
-	width: 300px;
+	width: 100%;
 	}
 	.Location{
-		width: 200px
+		width: 100%;
 	}
 	.date-input{
-		width: 150px;
+		width: 49%;
 	}
 	.search-btn{
-		height: 50px;
-		width: 150px;
-		background: yellow;
-		color: #000;
-		border-radius: 25px;
+		width: 100%;
+		margin: 0;
+		border-radius: 5px;
 		transition: .8s ease-in-out;
 	}
 	.search-btn:hover{
@@ -2485,9 +2476,7 @@ ul, ol {
 		cursor: pointer;
 	}
 	.form-box{
-		background: rgba(0,0,0,0.5);
-		padding: 20px;
-		border-radius: 35px;
+	    padding: 0px 2px 0px 2px;
 	}
 
 
