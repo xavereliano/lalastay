@@ -714,6 +714,63 @@ ul, ol {
 	height: 46px;
 	margin-top: 30px;
 }
+.hader .mobile{
+	display: none;
+}
+.hader .popularCounties {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 0 0;
+}
+.d-text12 {
+    font-size: 15px;
+}
+.hader .popularCounties .popularCount__heading{
+	color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 170px;
+    margin: 0 20px 0 0;
+    text-shadow: 2px 4px 8px rgba(0,0,0,.2);
+}
+.popularCties__carouselWrapper, .popularCities__cityCard {
+    display: -ms-flexbox;
+    display: flex;
+}
+.popularCities__cityCard {
+    margin-right: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 2px solid #d71d4c;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px;
+    background: transparent;
+    text-decoration: none;
+}
+.popularCities__cityCard:hover {
+    background-color: rgba(0,0,0,.4);
+}
+.popularCities__cityData {
+    padding: 0;
+    box-sizing: border-box;
+}
+.popularCities__cityData h2 {
+    color: #fff;
+    margin: 0;
+    line-height: 20px;
+}
+
+
 .hero-slider {
 	position: absolute;
 	width: 100%;
@@ -2516,5 +2573,27 @@ ul, ol {
 	}
 	.blog-details-text .comment-option .single-comment-item .sc-text a {
 		margin-bottom: 10px;
+	}
+
+
+	.d-text12 {
+	    font-size: 14px;
+	}
+	.hader .popularCounties .popularCount__heading{
+	    position: absolute;
+	    min-width: 100%;
+	    text-align: center;
+	}
+	.popularCties__carouselWrapper{
+		display: none;
+	}
+	.hader .mobile{
+		display: flex;
+	    transform: translate(3%, 10%);
+	}
+
+	.popularCities__cityCard {
+	    padding: 5px;
+        margin-top: 2rem;
 	}
 }
